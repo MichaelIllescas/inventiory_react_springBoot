@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/Navbar.css"; 
+import "/src/styles/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,8 +8,13 @@ const NavLinks: React.FC = () => {
     <ul className="navbar-nav mr-auto  ">
       {/* Link de Inicio */}
       <li className="nav-item">
-        <a className="nav-link" href="/">
-        <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-dark" />          Inicio
+        <a className="nav-link" href="/index">
+          <FontAwesomeIcon
+            icon={faSignOutAlt}
+            size="lg"
+            className="text-dark"
+          />{" "}
+          Inicio
         </a>
       </li>
 
@@ -25,34 +30,57 @@ const NavLinks: React.FC = () => {
         >
           Productos
         </a>
-        <ul className="dropdown-menu bg-dark" aria-labelledby="productosDropdown">
-          <li >
+        <ul
+          className="dropdown-menu bg-dark"
+          aria-labelledby="productosDropdown"
+        >
+          <li>
             <a className="dropdown-item text-light" href="/crearProductos">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Registrar Nuevo Producto
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/verProductos">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Ver Productos Registrados
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/actualizarStock">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Actualizar Stock de Productos
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/aplicarAumentos">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Aplicar Aumento de Precios
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/aplicarDescuento">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Aplicar Descuento de Precios
             </a>
           </li>
@@ -71,16 +99,27 @@ const NavLinks: React.FC = () => {
         >
           Clientes
         </a>
-        <ul className="dropdown-menu bg-dark" aria-labelledby="clientesDropdown">
+        <ul
+          className="dropdown-menu bg-dark"
+          aria-labelledby="clientesDropdown"
+        >
           <li>
             <a className="dropdown-item text-light" href="/registrarCliente">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Registrar Nuevo Cliente
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/verClientes">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Ver Clientes Registrados
             </a>
           </li>
@@ -102,13 +141,21 @@ const NavLinks: React.FC = () => {
         <ul className="dropdown-menu bg-dark" aria-labelledby="ventasDropdown">
           <li>
             <a className="dropdown-item text-light" href="/registrarVenta">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Registrar Nueva Venta
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/verVentas">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Ver Ventas Registradas
             </a>
           </li>
@@ -127,22 +174,37 @@ const NavLinks: React.FC = () => {
         >
           Informes
         </a>
-        <ul className="dropdown-menu bg-dark" aria-labelledby="informesDropdown">
+        <ul
+          className="dropdown-menu bg-dark"
+          aria-labelledby="informesDropdown"
+        >
           <li>
             <a className="dropdown-item text-light" href="/ventas">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Informe Mensual de Ventas
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/ventasDiarias">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Informe Diario de Ventas
             </a>
           </li>
           <li>
             <a className="dropdown-item text-light" href="/informeProductos">
-            <FontAwesomeIcon icon={faSignOutAlt} size="lg" className="text-light" /> 
+              <FontAwesomeIcon
+                icon={faSignOutAlt}
+                size="lg"
+                className="text-light"
+              />
               Informe Mensual de Productos
             </a>
           </li>

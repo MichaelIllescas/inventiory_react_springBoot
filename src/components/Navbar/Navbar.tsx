@@ -8,7 +8,7 @@ import "/src/styles/Navbar.css";
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg green-gradient-text animated--grow-in">
-      <div className="container">
+      <div className="container ">
         <Logo />
         <button
           className="animated--grow-in btn btn-secondary bg-gradient-dark rounded-circle p-2 d-lg-none"
@@ -23,15 +23,20 @@ const Navbar: React.FC = () => {
             <i className="fa fa-bars"></i>
           </span>
         </button>
-        <div className="collapse navbar-collapse animated--grow-in" id="navbarNav">
+        <div className="collapse navbar-collapse animated--grow-in justify-content-around" id="navbarNav">
           <NavLinks />
-          <ul className="navbar-nav ml-auto">
+          <div>
+          <ul className="navbar-nav ml-auto ">
             <Notifications />
             <UserMenu />
           </ul>
+          </div>
         </div>
       </div>
+      
+          
     </nav>
+    
   );
 };
 

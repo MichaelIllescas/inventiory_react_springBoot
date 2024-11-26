@@ -39,7 +39,7 @@ const SectionCard: React.FC = () => {
   return (
     <section className="content-section p-3 m-auto" id="portfolio">
       <div className="container m-auto">
-        <div className="row gx-1 gy-3">
+        <div className="row gx-4 gy-5">
           {cardsData.map((card, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
               <Card

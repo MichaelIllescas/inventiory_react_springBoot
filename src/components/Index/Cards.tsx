@@ -18,12 +18,12 @@ const Card: React.FC<CardProps> = ({
   buttonText,
 }) => {
   return (
-    <div className="card mx-auto" style={{ width: "18rem", height: "24rem" }}>
+    <div className="card mx-auto" style={{ width: "15rem", height: "24rem" }}>
       <img
         src={imgSrc}
-        className="card-img-top"
+        className="card-img-top img-fluid"
         alt={altText}
-        style={{ height: "12rem", objectFit: "cover" }}
+        style={{ height: "12rem", width:"15rem", objectFit: "revert"}}
       />
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{title}</h5>
