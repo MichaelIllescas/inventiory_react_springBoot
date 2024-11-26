@@ -1,0 +1,18 @@
+.footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+   
+    width: 100%;
+
+  }
+  
+  .footer a {
+    color: #00d1b2; /* Color de enlaces */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #00a9a0; /* Color de enlace al pasar el mouse */
+    text-decoration: underline;
+  }
+  
