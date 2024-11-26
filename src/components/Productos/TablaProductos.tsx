@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "datatables.net-bs4/css/dataTables.bootstrap4.min.css";
 import $ from "jquery";
 import "datatables.net-bs4";
-import "/src/styles/TableProductos.css";
+import "/src/styles/TableClientes.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faEdit } from "@fortawesome/free-solid-svg-icons"; 
 
