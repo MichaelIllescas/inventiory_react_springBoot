@@ -36,7 +36,7 @@ const InformeVentasMensuales: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="content">
       <Navbar />
       <div className="container text-dark mt-4 pb-4">
         <div className="typing-container titulo-main">

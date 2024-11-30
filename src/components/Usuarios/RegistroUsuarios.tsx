@@ -4,7 +4,7 @@ import Footer from "../Index/Footer";
 
 const RegistrarUsuario: React.FC = () => {
   return (
-    <div className="bg-login-image" id="page-top">
+    <div className="content" id="page-top">
       <Navbar />
       <div className="typing-container titulo-main pb-0">
         <h1 className="typing-text text-center">Registrar Usuario</h1>

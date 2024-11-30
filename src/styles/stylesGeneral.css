@@ -1,0 +1,11 @@
+.content {
+    
+    margin-bottom: 70px; /* Reserva espacio para el footer (ajusta a la altura real del footer) */
+  }
+
+@media (max-width: 768px){
+  .content{
+    margin-bottom: 140px;
+  }
+
+}

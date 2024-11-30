@@ -4,7 +4,7 @@ import Footer from "../Index/Footer";
 
 const RegistrarCliente: React.FC = () => {
   return (
-    <div>
+    <div className="content">
       <Navbar />
       <div className="bg-index container-fluid py-3">
       <div className="typing-container titulo-main">
@@ -92,7 +92,7 @@ const RegistrarCliente: React.FC = () => {
           </div>
 
           <div className="text-center">
-            <button type="submit" className="btn btn-success w-25">
+            <button type="submit" className="btn btn-success w-50">
               Registrar
             </button>
           </div>

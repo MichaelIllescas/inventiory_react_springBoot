@@ -5,7 +5,7 @@ import "/src/styles/LoginForm.css";
 
 const CrearProducto: React.FC = () => {
   return (
-    <div>
+    <div className="content">
       <Navbar />
       <div className="bg-index container-fluid py-3">
         <div className="typing-container titulo-main">

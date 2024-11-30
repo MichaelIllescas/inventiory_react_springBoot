@@ -37,7 +37,7 @@ const TablaVentas: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className="content">
       
     
         <div className="container mb-0 pb-2">

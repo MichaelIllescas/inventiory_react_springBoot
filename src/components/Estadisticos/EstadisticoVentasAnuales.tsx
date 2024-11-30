@@ -92,7 +92,7 @@ const PanelEstadisticoVentasAnuales: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="content">
         <Navbar />
         <div className="container">
        <div className="typing-container titulo-main">

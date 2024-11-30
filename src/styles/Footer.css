@@ -1,18 +1,31 @@
-.footer {
-    background-color: #343a40; /* Fondo oscuro */
-    color: #ffffff; /* Texto blanco */
-   
-    width: 100%;
 
+
+/* Footer fijo */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  text-align: center;
+  padding: 1rem;
+  z-index: 10; /* Asegura que el footer esté por encima de otros elementos */
+  height: 60px; /* Define la altura del footer */
+}
+
+.footer a {
+  color: #00d1b2; /* Color de enlaces */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #00a9a0; /* Color de enlace al pasar el mouse */
+  text-decoration: underline;
+}
+
+@media  (max-width: 768px){
+  .footer{
+    height: 120px;
   }
-  
-  .footer a {
-    color: #00d1b2; /* Color de enlaces */
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    color: #00a9a0; /* Color de enlace al pasar el mouse */
-    text-decoration: underline;
-  }
-  
+}

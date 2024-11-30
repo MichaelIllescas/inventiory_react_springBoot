@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
   buttonText,
 }) => {
   return (
-    <div className="card mx-auto" style={{ width: "12rem", height: "17rem" }}>
+    <div className="card mx-auto" style={{ width: "12rem", height: "18rem" }}>
       <img
         src={imgSrc}
         className="card-img-top img-fluid"
@@ -32,16 +32,16 @@ const Card: React.FC<CardProps> = ({
         }}
       />
       <div className="card-body d-flex flex-column">
-        <h5 className="card-title" style={{ fontSize: "17px", marginBottom: "0.5rem" }}>
+        <h5 className="card-title" style={{ fontSize: "17.5px", marginBottom: "0.5rem" }}>
           {title}
         </h5>
-        <p className="card-text flex-grow-1" style={{ fontSize: "10px", marginBottom: "1rem" }}>
+        <p className="card-text flex-grow-1" style={{ fontSize: "12px", marginBottom: "1rem" }}>
           {text}
         </p>
         <Link
           to={link}
           className="btn btn-primary mt-auto"
-          style={{ fontSize: "10px", padding: "5px 8px" }}
+          style={{ fontSize: "11px", padding: "5px 8px" }}
         >
           {buttonText}
         </Link>

@@ -37,6 +37,7 @@ const cardsData = [
 
 const SectionCard: React.FC = () => {
   return (
+    
     <section className="content-section p-0 m-auto " id="portfolio">
       <div className="cards-container">
         {cardsData.map((card, index) => (

@@ -5,7 +5,7 @@ import  TablaProductos from "./TablaProductos";
 
 const ProductosRegistrados: React.FC = () => {
   return (
-    <div>
+    <div className="content">
       <Navbar />
       <div className="bg-index container-fluid py-1 h-100">
         <div className="typing-container titulo-main">

@@ -58,7 +58,8 @@ const TablaProductos: React.FC = () => {
       
 
   return (
-    <div className="container mb-0 pb-2">
+    <div className="content">
+    <div className="container mb-0 pb-2 ">
       <div className="cards shadow-sm bg-white p-2">
         <div className="card-header bg-primary text-white rounded-2">
           <h6 className="m-0 font-weight-bold">Productos Registrados</h6>
@@ -111,6 +112,7 @@ const TablaProductos: React.FC = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

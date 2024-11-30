@@ -5,7 +5,7 @@ import "/src/styles/ActualizarStock.css";
 
 const ActualizarStock: React.FC = () => {
   return (
-    <div>
+    <div  className="content">
       <Navbar />
       <div className="bg-index container-fluid pb-0 contenedor-stocks">
         <div className="typing-container titulo-main">

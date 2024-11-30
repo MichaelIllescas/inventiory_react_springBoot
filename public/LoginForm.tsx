@@ -1,10 +1,12 @@
 import React from "react";
 import "/src/styles/LoginForm.css";
+import "/src/styles/stylesGeneral.css";
+
 import Footer from "../src/components/Index/Footer";
 
 const LoginForm: React.FC = () => {
   return (
-    <div className="login-wrapper mt-1">
+    <div className="login-wrapper mt-1 content">
       <div className="d-flex align-items-center justify-content-around w-75 flex-wrap m-5">
         <div className="typing-container d-flex align-items-center justify-content-center w-auto pb-0 mb-0 h-auto">
           <h1 className="typing-text pt-5">Bienvenid@ a</h1>
