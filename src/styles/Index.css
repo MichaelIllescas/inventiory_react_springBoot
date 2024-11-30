@@ -1,0 +1,47 @@
+
+.bg-index {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/src/assets/slide-3.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+  }
+.titulo-main{
+    margin:0;padding: 0; height: 9rem; 
+
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    justify-content: space-evenly; /* Distribuye las cards uniformemente */
+    gap: 10px; /* Espacio entre las cards */
+    padding: 5px;
+    margin-top: -15px;
+  }
+  
+  .card-wrapper {
+    flex: 1 1 calc(25% - 10px); /* Ocupa el 25% del ancho del contenedor */
+    max-width: 200px; /* Tamaño máximo */
+    min-width: 150px; /* Tamaño mínimo */
+    box-sizing: border-box; /* Asegura que el padding y border no afecten las dimensiones */
+  }
+  
+  .card-wrapper > .card {
+    margin: 0 auto; /* Centra las cards dentro de su contenedor */
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .card-wrapper {
+      flex: 1 1 calc(50% - 10px); /* En pantallas medianas, las cards ocupan la mitad del ancho */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-wrapper {
+      flex: 1 1 100%; /* En pantallas pequeñas, cada card ocupa el 100% del ancho */
+    }
+  }
+  

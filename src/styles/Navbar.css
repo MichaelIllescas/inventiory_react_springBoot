@@ -1,0 +1,25 @@
+.bg-gradient-dark-blue {
+    background-color: #1e3a5f; /* Un tono de azul oscuro */
+    background-image: linear-gradient(180deg, #1e3a7f 10%, #0b2e3a 100%); /* Gradiente de azul oscuro a azul marino */
+    background-size: cover;
+}
+.img-profile {
+    height: 2rem;
+    width: 2rem;
+}
+.green-gradient-text {
+    /* Gradiente de fondo */
+    background: linear-gradient(to top, #1e3a5f, white, #0b2e3a );
+    color: #0b2e3a;
+    /* Para hacer que el texto tome el color adecuado */
+    
+  
+   }
+
+ /* Hover oscuro en los elementos del dropdown */
+.dropdown-item:hover {
+    background-color: #343a40 !important; /* Fondo oscuro (Bootstrap Dark) */
+    color: #ffffff !important; /* Texto blanco */
+    transition: background-color 0.3s ease; /* Animación suave */
+  }
+  

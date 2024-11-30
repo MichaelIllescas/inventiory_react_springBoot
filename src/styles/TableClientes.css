@@ -1,0 +1,45 @@
+/* Ajuste del tamaño de fuente en pantallas pequeñas */
+@media (max-width: 576px) {
+    .table {
+      font-size: 0.8rem; /* Reduce el tamaño de fuente */
+    }
+  
+    .card-header {
+      font-size: 1rem; /* Reduce el tamaño del encabezado */
+    }
+  }
+
+  /* Card Style */
+.cards {
+    border-radius: 8px;
+    border: none;
+  }
+  
+  /* Table */
+  .table {
+    font-size: 1rem;
+  }
+  
+  .table th {
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+  }
+  
+  .table thead th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Table Danger Row */
+  .table-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  .card-header{
+    padding: 10px;
+  
+}
