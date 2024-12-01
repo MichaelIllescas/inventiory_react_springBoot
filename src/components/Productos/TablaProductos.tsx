@@ -21,7 +21,7 @@ const TablaProductos: React.FC = () => {
   const [productos, setProductos] = useState<Producto[]>([]);
   const [cargando, setCargando] = useState<boolean>(true);
 
-  // Solicitar productos desde la API
+  
   useEffect(() => {
     const obtenerProductos = async () => {
       try {
