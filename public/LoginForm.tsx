@@ -48,13 +48,13 @@ const LoginForm: React.FC = () => {
               </svg>
               <input
                 placeholder="Clave"
-                className="input-field"
+                className="input-field "
                 type="password"
               />
             </div>
             <div className="btn">
               <button type="button" className="button1">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingresar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button className="button2" type="button">
                 Registrarse

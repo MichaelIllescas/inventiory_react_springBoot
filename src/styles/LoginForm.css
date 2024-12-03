@@ -18,6 +18,7 @@
   justify-content: center; /* Centra verticalmente */
   height: 100vh; /* Ocupa toda la altura de la pantalla */
   padding-top: 50px;
+  width: 100%;
 }
 
 .typing-text {
@@ -44,7 +45,7 @@
 /* Animación para el efecto de escritura */
 @keyframes typing-1 {
   0% {
-    width: 0;
+    width: 0px;
     
     border-right: none;
   }
@@ -88,6 +89,7 @@
   max-width: 350px;
   max-height: 300px;
   margin-bottom: 200px;
+  
 
 }
 
@@ -102,6 +104,7 @@
   background-color: #171717;
   border-radius: 25px;
   transition: .4s ease-in-out;
+
 }
 
 .form:hover {
@@ -113,7 +116,7 @@
   text-align: center;
   margin: 2em;
   color: rgb(255, 255, 255);
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .field {
@@ -126,14 +129,14 @@
   border: none;
   outline: none;
   color: white;
-  background-color: #171717;
+  background-color: #e9e8e8;
   box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 }
 
 .input-icon {
   height: 1.3em;
   width: 1.3em;
-  fill: white;
+  fill: rgb(90, 88, 88);
 }
 
 .input-field {
@@ -141,7 +144,9 @@
   border: none;
   outline: none;
   width: 100%;
-  color: #d3d3d3;
+  color: #0f0f41;
+  
+
 }
 
 .form .btn {
@@ -165,7 +170,7 @@
 }
 
 .button1:hover {
-  background-color: black;
+  background-color: rgb(112, 112, 112);
   color: white;
 }
 
@@ -182,7 +187,7 @@
 }
 
 .button2:hover {
-  background-color: black;
+  background-color: rgb(112, 112, 112);
   color: white;
 }
 
@@ -198,7 +203,7 @@
 }
 
 .button3:hover {
-  background-color: red;
+  background-color: rgb(92, 4, 4);
   color: white;
 }
 
@@ -226,14 +231,7 @@
   background-color: #0056b3;
 }
 
-.recuperar-clave {
-  color: #5537db;
-  text-decoration: underline;
-}
 
-.recuperar-clave:hover {
-  color: #b922e7;
-}
 .form-login{
   border-radius: 11px;
 background: #827d7d;
@@ -249,18 +247,22 @@ button {
   background: #212121;
   border: 1px solid #212121;
   transition: all 0.3s;
-  box-shadow: 6px 6px 12px #000, -6px -6px 12px #2f2f2f;
+  box-shadow:  -6px -6px 2px #2f2f2f;
 }
 
 button:active {
   color: #666;
-  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #1f1f1f;
+  box-shadow: inset 1px 1px 2px #000, inset -2px -2px 12px #1f1f1f;
 }
 
 
 @media (max-width: 768px) {
   .typing-text {
     font-size: 2rem; /* Reduce el tamaño del texto */
-    text-wrap: wrap;
+    text-wrap: nowrap;
+  }
+  .form{
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 }
