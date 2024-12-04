@@ -1,19 +1,22 @@
 import React from "react";
 import "/src/styles/LoginForm.css";
-import "/src/styles/stylesGeneral.css";
-
 import Footer from "../src/components/Index/Footer";
 
 const LoginForm: React.FC = () => {
   return (
-    <div className="login-wrapper mt-1 content">
-      <div className="d-flex align-items-center justify-content-around w-75 flex-wrap m-5">
-        <div className="typing-container d-flex align-items-center justify-content-center w-auto pb-0 mb-0 h-auto">
-          <h1 className="typing-text pt-5">Bienvenid@ a</h1>
-          <h1 className="typing-text">Inventiory!</h1>
+    <div className="login-wrapper mt-1">
+      <div className="d-flex align-items-center justify-content-around w-100 flex-wrap m-2 mb-5">
+
+        <div className=" h-100 ">
+        <div className="typing-container">
+          <h1 className="typing-text pt-2">Bienvenid@ a</h1>
+          <h1 className="typing-text"> Inventiory!</h1>
+          
         </div>
 
-        <div>
+        </div>
+
+     
           {/* Formulario */}
           <form className="form">
             <p id="heading">Inicio de Sesión</p>
@@ -30,7 +33,7 @@ const LoginForm: React.FC = () => {
               </svg>
               <input
                 autoComplete="off"
-                placeholder="Emails"
+                placeholder="Email"
                 className="input-field"
                 type="email"
               />
@@ -48,13 +51,13 @@ const LoginForm: React.FC = () => {
               </svg>
               <input
                 placeholder="Clave"
-                className="input-field "
+                className="input-field"
                 type="password"
               />
             </div>
             <div className="btn">
               <button type="button" className="button1">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ingresar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </button>
               <button className="button2" type="button">
                 Registrarse
@@ -64,7 +67,7 @@ const LoginForm: React.FC = () => {
               ¿Olvidaste tu Contraseña?
             </button>
           </form>
-        </div>
+       
       </div>
       <Footer />
     </div>

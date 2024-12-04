@@ -16,7 +16,7 @@
   flex-direction: column; /* Alinea los elementos verticalmente */
   align-items: center; /* Centra horizontalmente */
   justify-content: center; /* Centra verticalmente */
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  /* Ocupa toda la altura de la pantalla */
   padding-top: 50px;
   width: 100%;
 }
@@ -88,8 +88,8 @@
   width: 90%;
   max-width: 350px;
   max-height: 300px;
-  margin-bottom: 200px;
-  
+  margin-bottom: 220px;
+  background-color: red;
 
 }
 
@@ -256,13 +256,121 @@ button:active {
 }
 
 
+/* Estilos generales para dispositivos pequeños */
 @media (max-width: 768px) {
-  .typing-text {
-    font-size: 2rem; /* Reduce el tamaño del texto */
-    text-wrap: nowrap;
+  .login-wrapper {
+    flex-direction: column; /* Mantener la columna para espacios pequeños */
+    padding: 20px;
+    height: auto; /* Ajusta la altura para evitar problemas en pantallas pequeñas */
   }
-  .form{
-    margin-top: 10px;
-    margin-bottom: 0;
+
+  .bg-imagen {
+    background-size: contain; /* Asegura que la imagen de fondo se ajuste */
+    background-position: center;
+  }
+
+  .typing-container {
+    padding-top: 20px;
+    height: auto; /* Ajustar altura para dispositivos pequeños */
+  }
+
+  .typing-text {
+    font-size: 1.5rem; /* Reduce el tamaño del texto */
+    white-space: normal; /* Permitir el ajuste de línea en textos largos */
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%; /* Ocupa casi todo el ancho disponible */
+    max-width: 100%; /* Sin límite máximo */
+    margin-bottom: 20px; /* Espacio más pequeño */
+    margin-top: 20px;
+  }
+
+  .form {
+    padding: 1em; /* Reduce los márgenes y padding para mejor ajuste */
+    gap: 10px;
+    border-radius: 15px; /* Bordes más pequeños */
+  }
+
+  #heading {
+    font-size: 1.2em; /* Tamaño más pequeño */
+    margin: 1.5em 0;
+  }
+
+  .button1, .button2, .button3 {
+    padding: 0.4em 1em; /* Botones más pequeños */
+    font-size: 0.9rem; /* Reducir el tamaño de fuente */
+    margin: 0.2em 0; /* Reduce márgenes entre botones */
+  }
+
+  .field {
+    padding: 0.5em; /* Reduce el padding del campo */
+    font-size: 0.9rem; /* Fuente más pequeña */
+  }
+
+  .form-control {
+    font-size: 0.9rem; /* Ajustar tamaño de fuente */
+    padding: 8px; /* Padding reducido */
+  }
+
+  .form-login {
+    padding: 1em; /* Espaciado reducido */
+    border-radius: 8px;
+    box-shadow: inset 3px 3px 6px #383636,
+                inset -3px -3px 6px #ccc4c4;
+  }
+
+  button {
+    padding: 0.5em 1.5em; /* Ajustar padding */
+    font-size: 0.8rem; /* Reducir fuente */
+  }
+
+  .card-title {
+    font-size: 1rem; /* Tamaño más pequeño para títulos */
   }
 }
+
+/* Estilos para dispositivos muy pequeños (teléfonos más antiguos o pantallas reducidas) */
+@media (max-width: 480px) {
+  .typing-text {
+    font-size: 2rem; /* Aún más pequeño */
+  }
+  .typing-container {
+    min-height: 20vh;  margin: 0; padding: 0;
+  }
+
+  .form-container {
+    width: 100%;
+    
+  }
+
+  .form {
+    padding: 1.5em; /* Padding mínimo */
+    gap: 10px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin: 0 auto
+  }
+
+  .button1, .button2, .button3 {
+    padding: 0.4em 0.9em;
+    font-size: 01rem;
+  }
+
+  .field {
+    font-size: 1rem;
+    padding: 0.4em;
+  }
+
+  #heading {
+    font-size: 1.5rem;
+    margin: 1em 0;
+  }
+
+  .form-login {
+    padding: 0.8em;
+    border-radius: 5px; 
+  }
+}
+

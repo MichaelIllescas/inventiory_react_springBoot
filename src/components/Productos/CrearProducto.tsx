@@ -49,6 +49,7 @@ const CrearProducto: React.FC = () => {
       setCategoria("");
       setStock(0);
       setPrecio(0);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
      // Revisa si hay una respuesta de error desde el backend
   if (error.response) {
